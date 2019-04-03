@@ -24,4 +24,8 @@ insert into enrollments Values("106","1158");
 insert into enrollments Values("106","1389");
 insert into enrollments Values("108","1389");
 insert into enrollments Values("108","1247");
+insert into enrollments Values("105","1203");
+insert into enrollments Values("105","1451");
+insert into enrollments Values("104","1103");
+insert into enrollments Values("104","1673");
 Select * from enrollments
