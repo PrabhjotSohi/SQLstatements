@@ -1,0 +1,26 @@
+insert into students Values("Mary","101");
+insert into students Values("Steve","102");
+insert into students Values("Jordan","103");
+insert into students Values("Lisa","104");
+insert into students Values("Mike","105");
+insert into students Values("Bill","106");
+insert into students Values("Polly","107");
+insert into students Values("Jenna","108");
+insert into students Values("Mitch","109");
+insert into students Values("David","110");
+
+insert into classes Values("Java","B230","MON_AM","1103");
+insert into classes Values("Csharp","B112","TUE_PM","1247");
+insert into classes Values("Math","A506","WED_PM","1389");
+insert into classes Values("Database","B123","THU_PM","1455");
+insert into classes Values("ProjMgt","B125","FRI_PM","1203");
+insert into classes Values("EmergTech","B122","FRI_EV","1158");
+insert into classes Values("CSharp","B125","FRI_PM","1451");
+insert into classes Values("Math","111","WED_AM","1103");
+
+insert into students Values("107","1455");
+insert into students Values("107","1247");
+insert into students Values("106","1158");
+insert into students Values("106","1389");
+insert into students Values("108","1389");
+insert into students Values("108","1247");
