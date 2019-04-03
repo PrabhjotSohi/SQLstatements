@@ -8,7 +8,7 @@ insert into students Values("Polly","107");
 insert into students Values("Jenna","108");
 insert into students Values("Mitch","109");
 insert into students Values("David","110");
-
+Select * from students
 insert into classes Values("Java","B230","MON_AM","1103");
 insert into classes Values("Csharp","B112","TUE_PM","1247");
 insert into classes Values("Math","A506","WED_PM","1389");
@@ -17,10 +17,11 @@ insert into classes Values("ProjMgt","B125","FRI_PM","1203");
 insert into classes Values("EmergTech","B122","FRI_EV","1158");
 insert into classes Values("CSharp","B125","FRI_PM","1451");
 insert into classes Values("Math","111","WED_AM","1103");
-
-insert into students Values("107","1455");
-insert into students Values("107","1247");
-insert into students Values("106","1158");
-insert into students Values("106","1389");
-insert into students Values("108","1389");
-insert into students Values("108","1247");
+Select * from classes
+insert into enrollments Values("107","1455");
+insert into enrollments Values("107","1247");
+insert into enrollments Values("106","1158");
+insert into enrollments Values("106","1389");
+insert into enrollments Values("108","1389");
+insert into enrollments Values("108","1247");
+Select * from enrollments
